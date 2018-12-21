@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import 'antd-mobile/dist/antd-mobile.css'; 
 import { TabBar } from 'antd-mobile';
 
 class App extends Component {
@@ -15,7 +16,7 @@ class App extends Component {
   renderContent(pageText) {
     return (
       <div style={{ backgroundColor: 'white', height: '100%', textAlign: 'center' }}>
-        <div style={{ paddingTop: 60 }}>显示 “{pageText}” 页面</div>
+        <div style={{ paddingTop: 60 }}> 显示 “{pageText}” 页面</div>
       </div>
     );
   }
